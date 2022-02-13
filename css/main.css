@@ -3,8 +3,8 @@
   margin-top: 15px;
 }
 .navbar .nav-link {
-  /* color: white; */
-  color: black;
+  color: white;
+  /* color: black; */
   font-size: 14px;
 }
 .navbar .active .nav-link {
@@ -36,12 +36,12 @@ p {
   font-weight: 300;
 }
 .header {
-  background-image: url("../Assets/backgroun.jpg");
+  /* background-image: url("../Assets/backgroun.jpg"); */
   background-position: center;
   background-size: cover;
   position: relative;
   padding-bottom: 15%;
-  background-color: rgb(60, 60, 212);
+  background-color: rgb(107, 107, 153);
   /* background: rgb(113, 113, 145); */
   /* opacity: 0.8; */
   /* background-color: #4d94ff; */
@@ -57,7 +57,10 @@ p {
 
   /* border-bottom-left-radius: 550px 520px; */
 }
-
+button.btn.btn-light.btn-lg.mt-2 {
+  background-color: blue;
+  color: white;
+}
 .header h1,
 .header p {
   /* color: white; */
@@ -150,6 +153,12 @@ p {
 .contact .contact-form .message-wrapper .btn:hover {
   opacity: 0.9;
   transition: 0.3s;
+}
+.card .mb-3 {
+  border-radius: 20px;
+}
+.card-img-top {
+  border-radius: 30px;
 }
 .footer {
   padding: 30px 0px;
