@@ -63,8 +63,12 @@ button.btn.btn-light.btn-lg.mt-2 {
 }
 .header h1,
 .header p {
-  /* color: white; */
-  color: black;
+  color: white;
+  /* color: black; */
+  font-weight: bold;
+}
+p {
+  font-weight: bold;
 }
 .header .btn-lg {
   font-size: 16px;
